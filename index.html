@@ -32,8 +32,8 @@
         <div class="cart">
             <i class='bx bx-cart' ></i>
             <div class="cart2">
-                <a href=""><h5><span>O <span>item</h5></a>
-                    <a href=""><h2>Total <span>O$</span></h2></a>
+                <a href="" id="cartValue"><h5><span>O <span>item</h5></a>
+                    <a href="" id="cartPrice"><h2>Total <span>O$</span></h2></a>
             </div>
            
         </div>
@@ -618,8 +618,73 @@
     </section>
 
 
+    <section class="products-section">
+        <div class="container">
+            <h2>Bechland Store</h2>
+        </div>
 
 
+        <section class="template-section">
+            <div id="productsContainer">
+
+                <!-- template er ja ase sob ekhane store hbe  -->
+
+            </div>
+        </section>
+    </section>
+
+
+    <template id="productsTemplate">
+
+        <div class="cards" id="cardvalue">
+
+            <article class="information">
+               <!-- <a href="" class="linkpage">  -->
+                <span class="catagoryname"></span>
+                <div class="imageContainer">
+                    <img src="" alt="" class="productImage">
+                </div>
+                <h2 class="productName"></h2>
+
+                <div class="productRating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+
+                <p class="productDescription"></p>
+
+                <div class="productPrice">
+                    <h3 class="offerPrice"></h3>
+                    <h3 class="realPrice"></h3>
+                </div>
+
+                <div class="productStock">
+                    <p class="productProperty">Total Stocks Available: </p>
+                    <p class="stockAmount"> </p>
+                </div>
+
+                <div class="productQuantity">
+                    <p class="quantityProperty">Quanitty (Pieces):</p>
+                    <div class="quantitySelection">
+                        <button class="cartIncrement">+</button>
+                        <p class="quantityValue">1</p>
+                        <button class="cartSecrement">-</button>
+                    </div>
+
+                </div>
+
+                <button class="addTocart">
+                    <i class='bx bxs-cart' ></i>
+                    <span>Add To Cart</span>
+                </button>
+            <!-- </a> -->
+            </article>
+        </div>
+
+    </template>
 
 
 
@@ -636,5 +701,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="counter.js"></script>
+    <script type="module" src="main.js"></script>
 </body>
 </html>

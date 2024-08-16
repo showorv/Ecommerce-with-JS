@@ -1,0 +1,89 @@
+[
+
+{
+    "id":1,
+    "name": "Revenger Casing",
+    "catagory": "Casing",
+    "brand": "Revenger Dynamic Leo",
+    "price": 999.00,
+    "stock": 50,
+    "description": "poweerful laptop with a quad core 15 processor, 8GB RAM,256GB SSD",
+    "image": "../images/images__3_-removebg-preview.png",
+    "link":"shop.html"
+    
+},
+{
+    "id":2,
+    "name": "Revenger Casing",
+    "catagory": "Casing",
+    "brand": "Revenger Dynamic Leo",
+    "price": 999.00,
+    "stock": 50,
+    "description": "poweerful laptop with a quad core 15 processor, 8GB RAM,256GB SSD",
+    "image": "../images/images__3_-removebg-preview.png"
+    
+},
+{
+    "id":3,
+    "name": "Revenger Casing",
+    "catagory": "Casing",
+    "brand": "Revenger Dynamic Leo",
+    "price": 999.00,
+    "stock": 50,
+    "description": "poweerful laptop with a quad core 15 processor, 8GB RAM,256GB SSD",
+    "image": "../images/images__3_-removebg-preview.png"
+    
+},
+{
+    "id":4,
+    "name": "Revenger Casing",
+    "catagory": "Casing",
+    "brand": "Revenger Dynamic Leo",
+    "price": 999.00,
+    "stock": 50,
+    "description": "poweerful laptop with a quad core 15 processor, 8GB RAM,256GB SSD",
+    "image": "../images/images__3_-removebg-preview.png"
+    
+},
+{
+    "id":5,
+    "name": "Revenger Casing",
+    "catagory": "Casing",
+    "brand": "Revenger Dynamic Leo",
+    "price": 999.00,
+    "stock": 50,
+    "description": "poweerful laptop with a quad core 15 processor, 8GB RAM,256GB SSD",
+    "image": "../images/images__3_-removebg-preview.png"
+    
+},
+{
+    "id":6,
+    "name": "Revenger Casing",
+    "catagory": "Casing",
+    "brand": "Revenger Dynamic Leo",
+    "price": 999.00,
+    "stock": 50,
+    "description": "poweerful laptop with a quad core 15 processor, 8GB RAM,256GB SSD",
+    "image": "../images/images__3_-removebg-preview.png"
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
