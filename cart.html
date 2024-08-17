@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <nav >
+        
+        <div class="navbar">
+         <div class="search">
+             <a href="index.html"><h2>Bechland</h2></a>
+ 
+            <div class="search-box"> <input type="search" name="" id="" placeholder="Search here" >
+             <i class='bx bx-search'></i></div>
+         </div>
+ 
+         <div class="signin">
+             <i class='bx bx-lock-alt'></i>
+             <div class="signin-box">
+                 <h5>Welcome</h5>
+             <a href=""><h2>Sign in/ Resigter</h2></a>
+             </div>
+             
+         </div>
+         <div class="cart">
+             <i class='bx bx-cart' ></i>
+             <div class="cart2">
+                 <a href="cart.html" id="cartValue"><h5><span>O <span>item</h5></a>
+                     <a href="cart.html" id="cartPrice"><h2>Total <span>O$</span></h2></a>
+             </div>
+            
+         </div>
+        </div>
+ 
+         <div class="navbar-part2">
+             <div class="boxes">
+                 <div class="catagory-box">
+                     <i class='bx bx-menu' ></i>
+                     <h2>All Catagories</h2>
+                 </div>
+                 <div class="boxlast">
+                     <div class="box2">
+                         <i class='bx bxs-offer' ></i>
+                         <h2>Offers</h2>
+                     </div>
+                     <div class="box3">
+                         <i class='bx bx-box' ></i>
+                         <h2>PC Builders</h2>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </nav>
+
+
+
+     <section class="cartelem">
+        <div class="cartElementAll">
+
+
+
+            <section id="cartElementDetails">
+                <div class="showCart">
+
+                </div>
+            </section>
+
+
+           <section class="pricingdetails">
+            <div class="priceBox">
+                <p>All Payment Details</p>
+
+                <div>
+                    <p>SubTotal:</p>
+                    <p class="subprice">0</p>
+                </div>
+
+                <div>
+                    <p>Tax:</p>
+                    <p class="tax">৳50</p>
+                </div>
+                <hr>
+                <div>
+                    <p>Total:</p>
+                    <p class="totalPrice">0</p>
+                </div>
+            </div>
+           </section>
+        </div>
+     </section>
+
+
+
+     <template id="cartTemplate">
+        <div class="cards" id="cardValue">
+            <article class="Information">
+                <div>
+                    <span class="catagory"></span>
+                </div>
+
+                <div class="imageBox">
+                    <img src="" alt="" class="ImageBox">
+                </div>
+
+                <h2 class="productNames"></h2>
+
+                <h3 class="productPrice"></h3>
+
+                <div class="quantityBox">
+                   <button class="increment">+</button>
+                   <p class="quantityValues">1</p>
+                   <button class="decrement">-</button>
+
+                </div>
+
+                <button class="removeCart">
+                    Remove
+                </button>
+
+            </article>
+        </div>
+     </template>
+
+
+
+
+
+
+
+     <script type="module" src="cartElemet.js"></script>
+</body>
+</html>
