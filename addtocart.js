@@ -1,4 +1,5 @@
 import { getCartProductFromLS } from "./cartfromlocal";
+import { showToast } from "./showToast";
 import { updateCardValue } from "./updateCardValue";
 
 
@@ -47,11 +48,15 @@ export const addToCart=(event,id,stock)=>{
             //     currentProd;
             // }
             return currentProd.id===id ? updatedCard : currentProd;
+
+           
         });
 
         console.log(updatedCard);
 
         localStorage.setItem("cartLocalProduct",JSON.stringify(updatedCard))
+
+        showToast("add", id)
     }
 
     if(existingprod){
@@ -67,6 +72,8 @@ export const addToCart=(event,id,stock)=>{
 
     localStorage.setItem("cartLocalProduct",JSON.stringify(arrLocalStorageProduct)) //inspect-> localstorage
     // console.log(updatedCart);
+
+    showToast("add", id)
 
     updateCardValue(arrLocalStorageProduct);
     

@@ -1,7 +1,7 @@
 
 
 const cartValue=document.querySelector("#cartValue");
-const cartPrice=document.querySelector("#cartPrice");
+
 
 export const updateCardValue=(cartValues)=>{
     

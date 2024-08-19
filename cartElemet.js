@@ -1,6 +1,9 @@
 import products from "./api/products.json";
+import { CartTotal } from "./cartTotal";
 import { getCartProductFromLS } from "./cartfromlocal";
+import { incrementDecrement } from "./incrementDecrement";
 import { matchQuantityPriceLS } from "./matchQuantityPriceLS";
+import { removeCart } from "./removeCart";
 
 // localstorage theke ber korte hbe kongula addtocart kora ase + bakidetails er jnne products.json theke details information nite hbe
 let Cartproducts = getCartProductFromLS();
@@ -35,8 +38,21 @@ const productTemplate = document.querySelector("#cartTemplate")
         productClone.querySelector(".ImageBox").src=image;
         productClone.querySelector(".ImageBox").alt=name;
         
-        productClone.querySelector(".quantityBox").textContent = matchproduct.quantity;
+        productClone.querySelector(".quantityValues").textContent = matchproduct.quantity;
         productClone.querySelector(".productPrice").textContent = matchproduct.price;
+
+
+        //increment decrement in cart again
+
+        productClone.querySelector(".quantityBox").addEventListener("click",(event)=>{
+          incrementDecrement(event,id,stock,price);
+      });
+
+//for removing cart
+        productClone.querySelector(".removeCart").addEventListener("click",()=>removeCart(id));
+
+
+
         productCart.append(productClone)
 
     })
@@ -47,4 +63,5 @@ const productTemplate = document.querySelector("#cartTemplate")
 
   showCartProduct()
 
+  CartTotal()
 
