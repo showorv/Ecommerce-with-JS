@@ -889,6 +889,164 @@ html,body{
     }
 }
 
-.toast .show{
+/* .toast .show{
     opacity: 1;
+} */
+
+
+.Information{
+  
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3vw;
+  width: 64rem;
+  /* padding: 3vw 3vw; */
+  border: 1px solid #dadada;
+  background-color: #fff;
+    border-radius: 10px;
+   
 }
+.showCartes{
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5vw 16.5vw;
+
+    
+    
+    
+}
+/* #cartTemplate{
+    display: flex;
+} */
+
+.quantityBox{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #dadada;
+   
+    font-size: 0.9vw;
+    margin-right: 1vw;
+    
+
+}
+
+
+.increment{
+    padding: 5px 12px;
+    font-size: 0.8vw;
+    font-weight: 600;
+    background: transparent;
+    border: none;
+    border-right: 1px solid #dadada;
+    
+    
+    
+}
+.increment:hover{
+    cursor: pointer;
+    background-color: #a19c9c;
+}
+.decrement{
+    padding: 3.8px 12px;
+    font-size: 0.9vw;
+    font-weight: 600;
+    background: white;
+    border: none;
+    border-left: 1px solid #dadada;
+    
+
+}
+.decrement:hover{
+    cursor: pointer;
+    background-color: #a19c9c;
+}
+.quantityValues{
+    padding: 5px 15px;
+    font-size: 0.8vw;
+    font-weight: 600;
+    text-align: center;
+    background: white;
+    border: none;
+    width: 3rem;
+    
+}
+
+.catagory{
+    background-color: rgba(230, 146, 68, 0.281);
+    padding: 0.2vw 1vw;
+    font-size: 0.6vw;
+    font-weight: 300;
+    border-radius: 50px;
+    border: none;
+    margin-left: 1vw;
+
+}
+
+.imageBox img{
+    width: 100px;
+    object-fit: cover;
+
+}
+
+.productNames {
+    font-size: 1vw;
+        font-weight: 600;
+        margin-right: 5vw;
+        margin-left: -2vw;
+}
+
+.productPrice{
+    font-weight: 300;
+    width: 5rem;
+
+}
+
+.removeCart{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px 60px;
+    font-size: 0.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.removeCart:hover{
+    background-color: rgb(48, 47, 47);
+    cursor: pointer;
+}
+
+.priceBox{
+    background-color: white;
+    width: 20%;
+    height: 13rem;
+    margin-left: 55vw;
+}
+
+.priceBox> p{
+    font-size: 1.2vw;
+    padding: 10px 6px;
+    font-weight: 600;
+
+}
+
+.priceBox div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 6px;
+}
+
+.priceBox div>p{
+    width: 4rem;
+    margin-right: 5rem;
+    font-size: 1.1vw;
+}
+

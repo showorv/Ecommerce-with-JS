@@ -15,8 +15,9 @@ let filterProdcuts = products.filter((curProd)=>{
 
 console.log(filterProdcuts);
 
-const productCart= document.querySelector("#cartElementDetails")
+const productCart= document.querySelector(".showCartes")
 const productTemplate = document.querySelector("#cartTemplate")
+
 
  //create function for all details
 
