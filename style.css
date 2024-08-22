@@ -19,7 +19,7 @@ html,body{
     justify-content: space-around;
     align-items: flex-start;
     padding: 0.7vw 10vw;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     z-index: 100;
 
@@ -147,6 +147,9 @@ html,body{
     
     
     
+    
+    
+    
 }
 
 .navbar-part2 .boxes{
@@ -237,6 +240,7 @@ html,body{
     height: 50vh;
     position: relative;
     margin-left: 16.5vw;
+    
 }
 
 .page1 .images img{
@@ -387,7 +391,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 20px 150px;
+    padding: 20px 100px;
     background-color: rgb(255, 255, 255);
     margin-top: 10px;
 }
@@ -439,6 +443,7 @@ html,body{
     background-color: rgb(255, 255, 255);
     /* padding: 10px; */
     position: relative;
+    margin-top: 20px;
 }
 
 .page4-up h3{
@@ -592,6 +597,7 @@ html,body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 6vw;
 }
 
 .page5 .page5-down{
@@ -861,7 +867,7 @@ html,body{
     padding: 10px 10px;
     border-radius: 10px;
     position: fixed;
-    top: 6rem;
+    top: 4.2rem;
     right: 1.4rem;
     /* margin-top: -59vw; */
     z-index: 2000;
@@ -913,7 +919,7 @@ html,body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 5vw 16.5vw;
+    margin: 2vw 16.5vw;
 
     
     

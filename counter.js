@@ -7,8 +7,8 @@ function page4Animation(){
             trigger:".page4-div",
             scroller:"body",
             scrub:true,
-            start:"top 50%",
-            end:"top 10%"
+            start:"top 40%",
+            end:"top 20%"
         }
     })
 }

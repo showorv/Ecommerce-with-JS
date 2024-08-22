@@ -127,7 +127,7 @@
 }
 
 .page1-right h2{
-    padding: 10px 0;
+    padding: 25px 0;
     font-size: 1.2vw;
 }
 
@@ -322,7 +322,7 @@ text-decoration: line-through;
 }
 
 .p2-top h4{
-    margin-right: 100px;
+    margin-right: 130px;
     background-color: rgb(16, 16, 94);
     font-size: 1.2vw;
     padding: 5px 40px;
@@ -338,7 +338,7 @@ text-decoration: line-through;
 }
 
 .p2-top h2{
-    margin-right: 100px;
+    margin-right: 70px;
     background-color: white;
     font-size: 1vw;
     padding: 8px 70px;
@@ -367,7 +367,7 @@ text-decoration: line-through;
     /* background-color: violet; */
 }
 
-.down-left .catagory h2{
+.down-left .catagorys h2{
     font-size: 1vw;
     padding: 15px 10px;
     background-color: white;
